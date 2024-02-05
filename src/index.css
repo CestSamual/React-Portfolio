@@ -1,1 +1,22 @@
+@font-face {
+    font-family: "StretchPro";
+    src: url("../assets/fonts/StretchPro.ttf");
+  }
+*{
+   background-color:  #e8dabc; 
+}
+
+.name{
+    font-family: "StretchPro";
+}
+
+p{
+    font-family: "StretchPro";
+}
+
+.my-image{
+    max-width: 200px;
+    margin: 10%;
+    clip-path: circle();
+}
 

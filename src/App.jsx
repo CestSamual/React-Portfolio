@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ProjectGallery from './Pages/ProjectGallery';
-import Home from './Pages/Home';
-import Contact from './Pages/Contact';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import ProjectGallery from './Pages/ProjectGallery/';
+import Home from './Pages/Home/';
+import Contact from './Pages/Contact/';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Header />
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/Home" element={<Home/>} />

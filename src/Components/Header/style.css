@@ -1,0 +1,20 @@
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+}
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+@font-face {
+  font-family: "StretchPro";
+  src: url("../assets/fonts/StretchPro.ttf");
+}
+.navbar-brand{
+  font-family: "StretchPro";
+}
+.nav-item{
+  font-family: "StretchPro";
+}
+.bg-light{
+  background-color:  #e8dabc !important;
+}

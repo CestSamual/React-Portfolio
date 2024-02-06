@@ -15,7 +15,7 @@ function App() {
       <div>
         <Header />
           <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/React-Portfolio" element={<Home/>} />
             <Route path="/Home" element={<Home/>} />
             <Route path="/Project-Gallery" element={<ProjectGallery/>} />
             <Route path="/Contact" element={<Contact/>} />

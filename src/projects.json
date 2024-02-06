@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "We Are Many",
+        "image": "https://github.com/CestSamual/We-Are-Many/raw/main/assets/Homepage-1.png",
+        "github": "https://github.com/CestSamual/We-Are-Many",
+        "deployedapp": "https://cestsamual.github.io/We-Are-Many/"
+    },
+    {
+        "id": 2,
+        "name": "Random Password Generator",
+        "image": "https://github.com/CestSamual/Console-Finances/assets/148571604/5d6b899d-3231-48cd-87a1-b64bd958b1bf",
+        "github": "https://github.com/CestSamual/Random-Password-Generator",
+        "deployedapp": "https://cestsamual.github.io/Random-Password-Generator/"
+    },
+    {
+        "id": 3,
+        "name": "Dynamic Coding Quiz",
+        "image": "https://github.com/CestSamual/Random-Password-Generator/assets/148571604/fb99563b-0944-494a-939d-090c2964a0ec",
+        "github": "https://github.com/CestSamual/Dynamic-Coding-Quiz",
+        "deployedapp": "https://cestsamual.github.io/Dynamic-Coding-Quiz/"
+    },
+    {
+        "id": 4,
+        "name": "Console Finances",
+        "image": "https://github.com/CestSamual/Console-Finances/assets/148571604/12bada29-5076-4d31-b614-53540ad0959c",
+        "github": "https://cestsamual.github.io/Console-Finances/",
+        "deployedapp": "https://cestsamual.github.io/Console-Finances/"
+    },
+    {
+        "id": 5,
+        "name": "Weather Forecast",
+        "image": "https://github.com/CestSamual/Work-Day-Scheduler/assets/148571604/310fa6d0-dba3-4261-a584-452a943c5b62",
+        "github": "https://github.com/CestSamual/Weather-Forecast",
+        "deployedapp": "https://cestsamual.github.io/Weather-Forecast/"
+    },
+    {
+        "id": 6,
+        "name": "Work Day Scheduler",
+        "image": "https://github.com/CestSamual/Work-Day-Scheduler/assets/148571604/f6e94be2-dd32-46ea-9f8e-1234d4edf8f6",
+        "github": "https://github.com/CestSamual/Work-Day-Scheduler",
+        "deployedapp": "https://cestsamual.github.io/Work-Day-Scheduler/"
+    }
+]

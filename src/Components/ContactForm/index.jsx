@@ -10,9 +10,9 @@ function ContactForm(){
     
     const [errorMessage, setErrorMessage] = useState('');
 
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
+    const handleChange = (event) => {
+        if (event.target.name === 'email') {
+            const isValid = validateEmail(event.target.value);
     
                 if(!isValid) {
                     setErrorMessage('Your email is invalid');
@@ -21,15 +21,15 @@ function ContactForm(){
                 }
             
             } else {
-                if (!e.target.value.length) {
-                  setErrorMessage(`${e.target.name} is required.`);
+                if (!event.target.value.length) {
+                  setErrorMessage(`${event.target.name} is required.`);
                 } else {
                   setErrorMessage('');
                 } 
         }
         
         if (!errorMessage) {
-        setFormData({...formData, [e.target.name]: e.target.value })
+        setFormData({...formData, [event.target.name]: event.target.value })
         }
     }
 

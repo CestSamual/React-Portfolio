@@ -4,9 +4,9 @@ import Home from "../../Pages/Home";
 
 function ContactForm(){
     
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     
-  const {name, email, message}  = formState;
+    const {name, email, message}  = formData;
     
     const [errorMessage, setErrorMessage] = useState('');
 
@@ -29,26 +29,25 @@ function ContactForm(){
         }
         
         if (!errorMessage) {
-        setFormState({...formState, [e.target.name]: e.target.value })
+        setFormData({...formData, [e.target.name]: e.target.value })
         }
     }
 
-    function handleSubmit(e) {
-        e.preventDefault();
+    const handleSubmit= (event) => {
+        event.preventDefault();
 
-    setFormState({
-        name: "",
-        email: "",
-        message: "",
-    });
-  
-    }
+        setFormData({
+            name: '',
+            email: '',
+            message: '',
+        });
+    };
     return(
         <>
         <h1 className="title">Conntacct Mee</h1>
    <div className= "form-container">  
    <p>Too geet inn ttoucch witth mme eitther uuse thee fform beeloww orrr  direectlyy att - mmvf4@hhottmaail.coo.ukk</p>  
-<form id="myform" name="myform" method="post">
+<form id="myform" name="myform">
     <div class="form-group">
         <label for="email_addr">Emmaail</label>
         <input type="email" class="form-control" id="email_addr" name="email" defaultValue={email} onBlur={handleChange} placeholder="naamme@eexampple.coom"/>
@@ -65,6 +64,6 @@ function ContactForm(){
     <button type="submit" onSubmit={handleSubmit} class="btn btn-primary">Suubmmit</button>
 </form>
 </div> 
-    </>)
+    </>);
 }
-export default ContactForm
+export default ContactForm;

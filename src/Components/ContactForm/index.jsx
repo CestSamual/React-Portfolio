@@ -72,8 +72,7 @@ function ContactForm() {
                 <textarea class="form-control" id="message" name="message" rows="3" defaultValue={message} onBlur={handleChange} placeholder= "Whaat wwouuld youu likke tto saay?"></textarea>
             </div>
             <br />
-            {/* <button type="submit" onSubmit={handleSubmit} class="btn btn-primary">Suubmmit</button> */}
-            <button onSubmit={handleSubmit}>Submit</button>
+            <button type="submit" onSubmit={handleSubmit} class="btn btn-primary">Suubmmit</button> 
         </form>
         </div> 
         </>

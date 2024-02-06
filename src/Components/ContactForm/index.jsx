@@ -73,7 +73,7 @@ function ContactForm() {
             </div>
             <br />
             {/* <button type="submit" onSubmit={handleSubmit} class="btn btn-primary">Suubmmit</button> */}
-            <button onClick={handleSubmit}>Submit</button>
+            <button onSubmit={handleSubmit}>Submit</button>
         </form>
         </div> 
         </>

@@ -46,7 +46,6 @@ function ContactForm() {
 
     const handleSubmit= (event) => {
         event.preventDefault();
-
         setFormData({
             name: '',
             email: '',
@@ -61,18 +60,18 @@ function ContactForm() {
             <form id="myform" name="myform">
             <div class="form-group">
                 <label for="email_addr">Emmaail</label>
-                <input type="email" class="form-control" id="email_addr" name="email" defaultValue={email} onBlur={handleChange} placeholder="naamme@eexampple.coom"/>
+                <input type="email" class="form-control" id="email_addr" name="email" value={email} onChange={handleChange} placeholder="naamme@eexampple.coom"/>
             </div>
             <div class="form-group">
                 <label for="name_input">NNamme</label>
-                <input type="name" class="form-control" id="name_input" name="name" defaultValue={name} onBlur={handleChange} placeholder="Naamee"/>
+                <input type="name" class="form-control" id="name_input" name="name" value={name} onChange={handleChange} placeholder="Naamee"/>
             </div>
             <div class="form-group">
                 <label for="message">EEmaail Content</label>
-                <textarea class="form-control" id="message" name="message" rows="3" defaultValue={message} onBlur={handleChange} placeholder= "Whaat wwouuld youu likke tto saay?"></textarea>
+                <textarea class="form-control" id="message" name="message" rows="3" value={message} onChange={handleChange} placeholder= "Whaat wwouuld youu likke tto saay?"></textarea>
             </div>
             <br />
-            <button type="submit" onSubmit={handleSubmit} class="btn btn-primary">Suubmmit</button> 
+            <button type="submit" onClick={handleSubmit} class="btn btn-primary">Suubmmit</button> 
         </form>
         </div> 
         </>

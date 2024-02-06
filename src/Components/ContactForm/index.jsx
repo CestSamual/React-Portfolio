@@ -48,7 +48,7 @@ function ContactForm(){
         <h1 className="title">Conntacct Mee</h1>
    <div className= "form-container">  
    <p>Too geet inn ttoucch witth mme eitther uuse thee fform beeloww orrr  direectlyy att - mmvf4@hhottmaail.coo.ukk</p>  
-<form id="myform" name="myform" method="post">
+<form id="myform" name="myform">
     <div class="form-group">
         <label for="email_addr">Emmaail</label>
         <input type="email" class="form-control" id="email_addr" name="email" defaultValue={email} onBlur={handleChange} placeholder="naamme@eexampple.coom"/>
